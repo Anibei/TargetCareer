@@ -318,7 +318,7 @@ h6 {
   text-decoration: none;
 }
 .section-title {
-  margin-bottom: 70px;
+  margin-bottom: 50px;
 }
 .section-title h3 {
   font-family: "Oswald";
@@ -665,11 +665,11 @@ h6 {
 .st-member .st-member-info {
   width: 100%;
   height: 100%;
-  padding: 70px 35px;
+  padding: 25px 15px;
   position: absolute;
   top: 0;
   left: 0;
-  text-align: center;
+  text-align: left;
   background-color: rgba(254, 254, 254, 0.95);
   opacity: 0;
   -webkit-transform: scale(1);
@@ -702,9 +702,9 @@ h6 {
   content: '';
   display: block;
   height: 2px;
-  width: 35px;
+  width: 98%;
   background-color: #4ecdc4;
-  margin: 0 auto;
+  margin: 0 auto auto 0;
 }
 .st-member .st-member-info .st-member-pos {
   display: block;
@@ -1241,14 +1241,15 @@ ul.styled-list.list-star li:before {
 }
 .pricing-table .pricing-header .pt-name {
   font-family: "Oswald";
-  padding: 10px 40px;
+  padding: 10px 10px;
   text-align: center;
   font-weight: 300;
-  font-size: 24px;
+  font-size: 22px;
   line-height: 40px;
-  color: #4c4c4c;
+  color: #f2f2f2;
   border-top: 1px solid #f2f2f2;
   border-bottom: 1px solid #f2f2f2;
+  background-color: #4c4c4c;
 }
 .pricing-table .pricing-body ul {
   margin: 0;
@@ -1256,7 +1257,7 @@ ul.styled-list.list-star li:before {
   list-style: none;
 }
 .pricing-table .pricing-body ul li {
-  padding: 8px 25px;
+  padding: 8px 10px;
   margin: 0;
 }
 .pricing-table .pricing-body ul li:nth-child(even) {
